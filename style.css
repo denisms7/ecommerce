@@ -40,12 +40,15 @@ button {
     border-radius: 2px;
     padding: 5px;
     margin: 10px 0;
+    transition: 0.7s;
 }
 
 button:hover {
-    background-color: rgb(84, 84, 190);
-    color: white;
+    background-color: rgb(12, 231, 110);
+    animation: infinite;
+    color: rgb(0, 0, 0);
     cursor: pointer;
+    transform: translateX(0) scale(1.1);
 }
 
 nav ul {
@@ -81,6 +84,8 @@ section {
 }
 
 h2 {
+    max-width: 100%;
+    width: 100%;
     border-bottom: 5px rgb(84, 84, 218) solid;
     margin-bottom: 10px;    
 }
@@ -107,3 +112,4 @@ article h3 {
     font-weight: bold;
     font-style: italic;
 }
+
