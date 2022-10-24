@@ -33,23 +33,7 @@ nav {
     display: inline;  
 }
 
-button {
-    background-color: rgb(84, 84, 218);
-    color: white;
-    border: none;
-    border-radius: 2px;
-    padding: 5px;
-    margin: 10px 0;
-    transition: 0.7s;
-}
 
-button:hover {
-    background-color: rgb(12, 231, 110);
-    animation: infinite;
-    color: rgb(0, 0, 0);
-    cursor: pointer;
-    transform: translateX(0) scale(1.1);
-}
 
 nav ul {
     display: flex;
@@ -111,4 +95,56 @@ article h3 {
     margin-top: 5px;
     font-weight: bold;
     font-style: italic;
+}
+
+
+button {
+    background-color: rgb(84, 84, 218);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+    margin: 10px 0;
+    transition: 0.7s;
+}
+
+button:hover {
+    background-color: rgb(12, 231, 110);
+    animation: infinite;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transform: translateX(0) scale(1.1);
+}
+
+
+@media screen and (max-device-width: 480px) {
+    header .container {
+        align-items: center;
+        display: block;
+    }
+
+    .sobre {
+        display: block;
+    }
+
+    .sobre img {
+        max-width: 100%;
+    }
+
+    .sobre div {
+        width: 100%;  
+    }
+
+    .c_artigos {
+        display: block;
+    }
+
+    .produto div article {
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-device-width: 480px) and (max-device-width: 912px) {
+
 }
