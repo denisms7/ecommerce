@@ -6,37 +6,93 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-Commerce</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <h1>E-Commerce</h1>
-        <nav>
-            <ul>
-                <li>Sobre a Loja</li>
-                <li>Produtos</li>
-            </ul>
-        </nav>
-    </header>
-    <section>
-        <img src="https://classic.exame.com/wp-content/uploads/2020/11/Loja-conceito-da-Natura-de-cosmeticos-1.jpg?quality=70&strip=info&w=1024" alt="loja">
-        <div>
-            <h2>Sobre a Loja</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, eum minus culpa ullam cupiditate laborum doloremque amet facere distinctio aliquid possimus recusandae nam aut iure quasi deserunt minima officiis assumenda.</p>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum earum deserunt dolor. Quis vel magnam ut eum, porro eius quaerat sit at sunt nemo iure incidunt excepturi expedita. Nesciunt, incidunt.</p>
+        <div class="container">
+            <h1>E-Commerce</h1>
+            <nav>
+                <ul>
+                    <li><a href="#id-sobre">Sobre a Loja</a></li>
+                    <li><a href="#id-produtos">Produtos</a></li>
+                </ul>
+            </nav>
         </div>
-    </section>
-    <section>
-        <h1>Produtos</h1>
-        <article>
-            <img src="https://secure-static.vans.com.br/medias/sys_master/vans/vans/h1f/hc6/h00/h00/9592308957214/1002001070011U-01-BASEIMAGE-Midres.jpg" alt="">
-            <h3>Vans</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum dolorem cum doloribus</p>
-            <button>Adicionar ao Carrinho</button>
-        </article>
-    </section>
+    </header>
+    <div class="container">
+        <section class="sobre">
+            <img src="https://classic.exame.com/wp-content/uploads/2020/11/Loja-conceito-da-Natura-de-cosmeticos-1.jpg?quality=70&strip=info&w=1024"
+                alt="loja">
+            <div>
+                <h2 id="id-sobre">Sobre a Loja</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, eum minus culpa ullam cupiditate
+                    laborum
+                    doloremque amet facere distinctio aliquid possimus recusandae nam aut iure quasi deserunt minima
+                    officiis assumenda.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum earum deserunt dolor. Quis vel magnam
+                    ut
+                    eum, porro eius quaerat sit at sunt nemo iure incidunt excepturi expedita. Nesciunt, incidunt.</p>
+            </div>
+        </section>
+    </div>
+    <div class="container">
+        <section class="produto">
+            <div>
+                <h2 id="id-produtos">Produtos</h2>
+            </div>
+            <div class="c_artigos">
+                
+                <article>
+                    <img src="./img/vans_preto.jpg"
+                        alt="">
+                    <h3>Vans Preto</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum dolorem cum doloribus</p>
+                    <p class="preco">Valor: R$ 299,90</p>
+                    <button>Adicionar ao Carrinho</button>
+                </article>
+    
+                <article>
+                    <img src="./img/copo-americano.jpg"
+                        alt="">
+                    <h3>Copo americano</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum dolorem cum doloribus</p>
+                    <p class="preco">Valor: R$ 0,75</p>
+                    <button>Adicionar ao Carrinho</button>
+                </article>
+    
+                <article>
+                    <img src="./img/echo-dot.jpeg"
+                        alt="">
+                    <h3>Echo Dot 3° Geração</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum dolorem cum doloribus</p>
+                    <p class="preco">Valor: R$ 330,00</p>
+                    <button>Adicionar ao Carrinho</button>
+                </article>
+
+                <article>
+                    <img src="./img/quebrador-ovos.jpeg"
+                        alt="">
+                    <h3>Quebrador Para Ovos</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum dolorem cum doloribus</p>
+                    <p class="preco">Valor: R$ 40,00</p>
+                    <button>Adicionar ao Carrinho</button>
+                </article>
+
+            </div>
+        </section>
+    </div>
+
+
+    
     <footer>
-        Denis MS 2022
+        Developer by Denis MS 2022
     </footer>
 
 </body>
